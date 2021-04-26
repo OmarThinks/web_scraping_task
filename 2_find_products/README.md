@@ -11,7 +11,7 @@ of the products of the search query are there.
 # How the code works:
 
 1. Declare the search parameters
-2. Transporm search parameters from human readable to the form that
+2. Transform search parameters from human readable to the form that
 the website will understand
 3. Create the final url with query paramaters
 4. Get a list of the products
