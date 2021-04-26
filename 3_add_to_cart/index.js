@@ -47,13 +47,13 @@ function send_the_request(csrf,product_id,amount)
 	{
 	  method: "post",
 	  url: add_to_cart_url,
-	  data: 	querystring.stringify({
+	  data: querystring.stringify({
 		"format":"ajax",
 		"Quantity":amount,
 		"pid":product_id.toString(),
 		"csrf_token":csrf
 		}),
-	  headers: { "Content-Type": "multipart/form-data" },
+	  headers: { "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8" },
 	})
 	.then((res=>{console.log(res)}))
 }
