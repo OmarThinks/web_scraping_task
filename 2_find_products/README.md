@@ -69,3 +69,10 @@ https://www.shopdisney.co.uk/disney-store-grogu-the-child-bag-charm-star-wars-th
 .
 ```
 </b>
+
+
+
+# Todos:
+
+
+1. Store the file as an object, for each product, not only store the link, but also price, rating, and image link
