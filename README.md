@@ -22,7 +22,7 @@ Finding all the products in a search query in a website.
 
 <h2>
 <a href="3_add_to_cart/README.md">
-	3) Add to cart
+	3) Add to cart (Need to fix the csrf issue)
 </a>
 </h2>
 Add a prodcut to the cart.
