@@ -1,6 +1,6 @@
 # 3) Add To cart:
 
-
+(Hard to complete)
 
 # Output:
 
@@ -270,3 +270,16 @@ The result:
 }
 ```
 </b>
+
+
+
+
+
+# The problem:
+
+1. The website has unclear error messages
+	- Whaterver the error is, it says **`data: { tokenMessage: 'product.addtocart.invalid_token' }`**
+	- Whetever the request, the response status code is 200
+2. I sent the request with the csrf token, and I still 
+got `invalidToken`
+
