@@ -31,14 +31,7 @@ function get_product_id($)
 
 const amount = 5;
 
-function print_to_file(file_text){
-	var file = fs.createWriteStream('3_add_to_cart/page_source_.html');
-	file.on('error', function(err) { 
-		console.log("couldn't store the data in a file."); });
 
-	file.write(file_text + '\n'); 
-	file.end();
-}
 
 
 function send_the_request(csrf,product_id,amount)
@@ -63,7 +56,6 @@ axios.get(URL)
   .then(function (response) {
     let response_text = response.data;
     //console.log(response_text);
-    print_to_file(response_text);
     let $ = cheerio.load(response_text);
     
     let csrf = get_csrf_token($);
